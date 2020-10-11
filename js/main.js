@@ -67,15 +67,15 @@ sr.reveal('.contact__text', { interval: 200 })
 sr.reveal('.contact__input', { delay: 400 })
 sr.reveal('.contact__button', { delay: 600 })
 // -------------------CONTACT-FIREBASE-----------------------
-var firebaseConfig = {
-    apiKey: "AIzaSyCvXTnvbHedJFpl8o0WXbRK2SKB9pCC68U",
-    authDomain: "cv-contacts-firebase.firebaseapp.com",
-    databaseURL: "https://cv-contacts-firebase.firebaseio.com",
-    projectId: "cv-contacts-firebase",
-    storageBucket: "cv-contacts-firebase.appspot.com",
-    messagingSenderId: "838894151011",
-    appId: "1:838894151011:web:11d782a17eef709d071f56"
-};
+// var firebaseConfig = {
+//     apiKey: "AIzaSyCvXTnvbHedJFpl8o0WXbRK2SKB9pCC68U",
+//     authDomain: "cv-contacts-firebase.firebaseapp.com",
+//     databaseURL: "https://cv-contacts-firebase.firebaseio.com",
+//     projectId: "cv-contacts-firebase",
+//     storageBucket: "cv-contacts-firebase.appspot.com",
+//     messagingSenderId: "838894151011",
+//     appId: "1:838894151011:web:11d782a17eef709d071f56"
+// };
 //-------------------------INIT-FIREBASE-----------------------
 firebase.initializeApp(firebaseConfig);
 var firestore = firebase.firestore();
